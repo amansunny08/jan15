@@ -1,0 +1,11 @@
+name: reusable-workflow
+on: 
+   workflow_call:
+jobs:
+  run-job:
+     runs-on: ubuntu-latest
+     steps:
+        - uses: actions/checkout@v3
+
+        - name: write something
+          run: echo "Hello world"
