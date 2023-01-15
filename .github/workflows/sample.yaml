@@ -5,5 +5,5 @@ on:
 jobs:
     call-workflow-local-repo:
        uses: ./.github/workflows/demo.yaml
-    call-workflow-remote-repo:
-       uses: amansunny08/demo15/blob/main/.github/workflows/red.yaml@main
+#     call-workflow-remote-repo:
+#        uses: amansunny08/demo15/blob/main/.github/workflows/red.yaml@main
