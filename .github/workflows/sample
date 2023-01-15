@@ -1,0 +1,8 @@
+name: mystarte workflow
+on: 
+    workflow_dispatch:
+    
+jobs:
+    call-workflow-local-repo:
+       uses: ./github/workflows/demo.yaml
+    
