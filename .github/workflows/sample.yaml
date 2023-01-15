@@ -4,5 +4,5 @@ on:
     
 jobs:
     call-workflow-local-repo:
-       uses: ./github/workflows/demo.yaml
+       uses: ./.github/workflows/demo.yaml
     
