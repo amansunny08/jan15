@@ -1,0 +1,9 @@
+name: for testing
+on: workflow_dispatch
+jobs:
+   test-job:
+     runs-on: ubuntu-latest
+     steps:
+       - name: get time and date
+         run: |
+           run: echo "::set-output name=date::$(date +'%Y-%m-%d')"        
